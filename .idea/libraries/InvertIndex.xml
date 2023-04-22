@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="InvertIndex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/InvertIndex.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
