@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="lab2">
+    <CLASSES>
+      <root url="file:///opt/hadoop_installs/hadoop-2.7.7/share/hadoop/mapreduce" />
+      <root url="file:///opt/hadoop_installs/hadoop-2.7.7/share/hadoop/yarn" />
+      <root url="file:///opt/hadoop_installs/hadoop-2.7.7/share/hadoop/common" />
+      <root url="file:///opt/hadoop_installs/hadoop-2.7.7/share/hadoop/mapreduce" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file:///opt/hadoop_installs/hadoop-2.7.7/share/hadoop/common/jdiff" />
+    </SOURCES>
+    <jarDirectory url="file:///opt/hadoop_installs/hadoop-2.7.7/share/hadoop/common" recursive="false" />
+    <jarDirectory url="file:///opt/hadoop_installs/hadoop-2.7.7/share/hadoop/mapreduce" recursive="false" />
+    <jarDirectory url="file:///opt/hadoop_installs/hadoop-2.7.7/share/hadoop/mapreduce" recursive="false" />
+    <jarDirectory url="file:///opt/hadoop_installs/hadoop-2.7.7/share/hadoop/yarn" recursive="false" />
+  </library>
+</component>
