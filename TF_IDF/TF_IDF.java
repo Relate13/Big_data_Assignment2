@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * @author Relate13
- * @description TF_IDF算法
+ * @description 文TF_IDF算法
  */
 
 public class TF_IDF {
@@ -146,9 +146,9 @@ public class TF_IDF {
                 String[] urlAndOccurrence = urlWithOccurrence.split(":");
                 //将该词语与当前文件名作为key
                 emitting_key.set(urlAndOccurrence[0] + ":" + key.toString());
-                //TODO: replace magic number 7
+                //TODO: if you don't like the magic number 7, go tell J.K.Rowling about it.
                 //提取TF 计算IDF 并将结果作为value
-                emitting_value.set("TF:" + urlAndOccurrence[1] + " IDF:" + Math.log( 7 / (double) (size + 1)));
+                emitting_value.set(String.valueOf(Double.parseDouble(urlAndOccurrence[1]) * Math.log(7 / (double) (size + 1))));
                 //发送键值对
                 context.write(emitting_key, emitting_value);
             }
